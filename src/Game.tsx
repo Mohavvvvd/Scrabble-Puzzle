@@ -250,7 +250,9 @@ const Game: React.FC = () => {
       {showInstructions && (
         <div className="instructions-panel">
           <h3>How to Play</h3>
-          <p>Select a letter from the bottom panel and click on the empty tile where you think it belongs. Complete all words to win!</p>
+          <p>Pick a letter from the bottom panel and click the empty tile where it belongs. 
+  Each tile shows a number representing its position in the word—match the letters to the correct numbers. 
+  Fill in all the words to win!</p>
           <button 
             className="close-instructions"
             onClick={() => setShowInstructions(false)}
